@@ -1,0 +1,40 @@
+body{
+    justify-content: center;
+    text-align: center;   
+}
+header{
+    background-color: rgb(20, 117, 156);
+    color: white;
+    padding-top:86px ;
+    height: 300px
+}
+form{
+    margin-top: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+input{
+    border-radius: 15px;
+    padding: 13px;
+    margin-bottom: 10px;
+}
+#forgotButton{
+    color: white;
+    background-color: rgb(73, 188, 73);
+    padding: 10px 28px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 20px;   
+}
+#forgotButton:hover{
+    background-color: rgb(72, 140, 72);
+}
+ label{
+    font-family: inherit;
+    font-size: 30px;
+ }
+
+

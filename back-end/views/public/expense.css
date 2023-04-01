@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+header{
+    background-color: rgb(76, 76, 247);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    background-image: url("../images/money.png");
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+label{
+    color: white;
+}
+#addText{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background-image: url("../images/crown.png");
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    
+}
+.allexpensetext{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#pagination{
+    text-align: center;
+}
+#razorpay{
+    background-color: rgb(255, 255, 8);
+    width: 100%;
+    margin-top: 10px;
+    color: rgb(25, 24, 24);
+    font-weight: bolder;
+    background-image: url("../images/premium.jpg");
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+}
+#razorpay:hover{
+    background-color: rgb(238, 146, 33);
+}
+hr {
+    border-top: 5px solid #faf0f0;;
+}
+#leaderboard{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+}
+#allExpenses{
+    color:white;
+    
+    font-size: 18px;
+}
+.footer{
+    position:fixed;
+    height:100%;
+    float: right;   
+}

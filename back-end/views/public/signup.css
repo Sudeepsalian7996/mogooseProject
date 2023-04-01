@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+   
+   background-color: rgb(241, 243, 246);
+}
+.container{
+    
+    margin-top: 0 auto;  
+    border-radius: 30px; 
+
+}
+
+img{
+    max-width: 100%;
+    border-radius: 130px;
+    margin-bottom: 20px;
+}
+
+form{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    padding:16px 95px ;
+    /* width: 50%; */
+    border-radius: 40px;
+    padding: 13px;
+
+}
+
+button{
+    color: white;
+    background-color: rgb(73, 188, 73);
+    padding: 10px 28px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 20px;
+    
+}
+button:hover{
+    background-color: rgb(72, 140, 72);
+}
+.error{
+    font-size: medium;
+    font-weight: bold;
+}
+label{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.login a{
+    font-size: 18px;
+}
+.forgotpassword a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 200;
+    margin-right:100px ;
+}
